@@ -1,9 +1,10 @@
 import './App.css';
+import FirstDataGet from './components/FirstDataGet';
 
 function App() {
   return (
     <div className="App">
-        <h2 className=' text-[25px] text-red-600'>hello</h2>
+        <FirstDataGet/>
     </div>
   );
 }
