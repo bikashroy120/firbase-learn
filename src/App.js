@@ -1,10 +1,11 @@
 import './App.css';
-import FirstDataGet from './components/FirstDataGet';
+import {Routes,Route} from "react-router-dom"
+import Navber from './pages/Navber';
 
 function App() {
   return (
     <div className="App">
-        <FirstDataGet/>
+        <Navber/>
     </div>
   );
 }
