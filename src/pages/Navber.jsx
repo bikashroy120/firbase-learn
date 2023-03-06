@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Navber = () => {
   return (
-    <div className=' bg-slate-800 text-white'>
+    <div className=' fixed w-full  bg-slate-800 text-white'>
         <div className="container">
             <div className='flex items-center justify-between pt-3'>
                     <p className="text-white">
@@ -45,7 +45,7 @@ const Navber = () => {
                         </div>
                     </Link>
                     <Link to={"/"}>Blog</Link>
-                    <Link to={"/Login"}>Login</Link>
+                    <Link to={"/login"}>Login</Link>
                     </div>
                     
 
